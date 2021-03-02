@@ -1,0 +1,64 @@
+to clear terminal:
+clear
+
+to know where i am:
+pwd 
+
+to change directory:
+cd /home/lalo <- this can be any route
+cd  return to /home/user
+cd ..   <- go back one folder, parent directory
+.   actual directory
+
+can be combined:
+cd ../lalo/
+cd ../../lalo
+cd ./lalo <- to execute files in this folder
+
+absolute routes & relative routes:
+cd /home/lalo <- absolute route
+cd documents/myFolder  <- already in /home/lalo, 
+
+list directory command:
+ls
+
+to list every option of ls command, and can be selcted
+ls -l'tab-key, tab-key'
+
+parameters-options:
+-l  list with details
+-t  sort by time
+-r  reverse sorting
+-h  human readeable filesize
+
+it can be used all together or one by one:
+ls -ltrh
+ls -l -t -r -h
+
+to write spaces in folders:
+mkdir "my folder"
+
+if an space are used, it means separation, in:
+mkdir my folder <- it makes two folders
+
+to make folder:
+mkdir
+
+-Uppercase & Lowecase ARE NOT THE SAME!
+
+autocompletion, works with tab, previously added a key of file/folder:
+ls -l i'tab-key' -> ls -l images/
+
+to show file inf
+ls -l <file-name>
+
+to show folder options when navigate them:
+cd(or any command) /<folder-name>'tab-key, tab-key'
+
+ctrl + r to show previously entered commands, needs to specify some command to list
+
+to show all entered commands with a number
+history
+
+to entered a number previously showed by history
+!<your-command-number>
