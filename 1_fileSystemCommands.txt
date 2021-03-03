@@ -30,6 +30,7 @@ parameters-options:
 -t  sort by time
 -r  reverse sorting
 -h  human readeable filesize
+-a  show hidden files and folders
 
 it can be used all together or one by one:
 ls -ltrh
